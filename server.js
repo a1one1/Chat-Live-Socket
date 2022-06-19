@@ -12,7 +12,7 @@ app.use(express.json());
 
 const rooms = new Map();
 
-app.get("/rooms/:id", (require, responce) => {
+app.get("/rooms/:id", (req, responce) => {
   const roomId = req.params.id;
   const object = rooms.has(roomId)
     ? {
@@ -23,7 +23,7 @@ app.get("/rooms/:id", (require, responce) => {
   responce.json(object);
 });
 
-app.post("/rooms", (require, responce) => {
+app.post("/rooms", (req, responce) => {
   const { roomId, userName } = req.body;
   if (!rooms.has(roomId)) {
     rooms.set(
