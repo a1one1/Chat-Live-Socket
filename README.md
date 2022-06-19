@@ -3,7 +3,7 @@
 
 ## Функционал сайта
 
-![gif](https://github.com/a1one1/Chat-Live-Socket/blob/main/chat-live.gif)
+![gif](https://github.com/a1one1/Chat-Live-Socket/blob/main/chat-live-socket.gif)
 
 ## Запуск проекта
 
